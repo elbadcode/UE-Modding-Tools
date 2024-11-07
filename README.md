@@ -541,7 +541,7 @@ They are all generated using [UEAssetToolkitGenerator](https://github.com/Longer
 * [cyubeVR](https://drive.google.com/file/d/17hX0e-hQ8MFm3IoW3ljH00EYh2earCoX/view?usp=share_link)
 * [Hydroneer](https://github.com/Buckminsterfullerene02/Hydroneer-Modkit)
 
-# [3dmigoto Examples + Game Specific Notes]
+# 3dmigoto Examples + Game Specific Notes
 * Currently only Wuthering Waves has an active modding community using this tool, although in time it too may move away from this. Aside from this list several games have one-off mods posted by lone authors. The tool is also used by NSFW modding communities for patching various UE titles that contain censorship 
 * [Wuthering Waves Model Importer](https://github.com/SpectrumQT/WWMI) 
     - Note that the game does actually have a [Pak bypass](https://git.xeondev.com/Shorekeeper/wicked-waifus-win-patch) but lacks community support for pak mods
@@ -552,16 +552,16 @@ They are all generated using [UEAssetToolkitGenerator](https://github.com/Longer
     - Models and animations can easily be dumped with umodel or fmodel (use new ueformat) but at this time no pak mods have been made for these  
     - Discord for the 3dmigoto modding group: [Anime Game Modding Group](https://discord.gg/agmg)
     - note that this group mainly focuses on Unity games using the same tool but the specifics of modding WW are different due to use of compute shader for skinning 
-* [Snowbreak Containment Zone]
+* Snowbreak Containment Zone
     - Community only supports pak modding - [guide](https://rentry.org/SnowbreakModdingTutorial)
     - Full mesh replacement possible in 3dmigoto, may sidestep issues with physics assets present in pak mods, provided a skilled enough modeler
     - No community support for 3dmigoto but tools for modding Genshin Impact will work (vertex shader skinning, easier than WW)
-* [FF7 Remake]
+* FF7 Remake
     - Used for early texture and mesh replacements, community now uses pak modding primarily
     - Still used for 3D fixes for UEVR support
-* [Palworld]
+* Palworld
     - Pointless due to extensive community toolkit but did support full mesh replacement
-* [Upcoming Competitive Anime Shooter Game]
+* Upcoming Competitive Anime Shooter Game
     - Notable risk due to being a competitive shooter but it is fully supported
     - Uses more difficult compute shader setup similar to WW
     - Exactly 2 people have ever modded this game - one being the [author](https://github.com/elbadcode) of this addendum on 3dmigoto
